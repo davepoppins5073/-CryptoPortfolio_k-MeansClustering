@@ -80,6 +80,10 @@ I was able to find the following resource that reiterates my point about reducin
 
 ## Sources
 This study was quoted in many places online talking about how to use PCA with K means clustering.  It was prtty informative but a lot went over my head,however from what I was able to glean i thought to share here as a source. 
+
+**Citation:** 
+K-means clustering via principal component analysis  C. Ding, and X. He. ICML '04: Proceedings of the twenty-first international conference on Machine learning , page 29. New York, NY, USA, ACM, (2004)
+
 <img width="787" alt="Screen Shot 2022-05-29 at 11 04 07 PM" src="https://user-images.githubusercontent.com/101449950/170909820-ba57f132-0efe-45d8-bda7-8af13dd5c707.png">
 
 
