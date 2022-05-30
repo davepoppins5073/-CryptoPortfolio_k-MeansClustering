@@ -1,5 +1,5 @@
 # CryptoPortfolio_k-MeansClustering
-##  *A novel approach to assembling crypto investment portfolios using k-Means Clustering*
+###  *A novel approach to assembling crypto investment portfolios using k-Means Clustering*
 
 ## Requirements/ Installations
 The requirement.txt file in this repository contain all the packages you'll need in your conding env. Please make sure to install if you do not have them already. While you could use the package manager [pip](https://pip.pypa.io/en/stable/) to install these individually please make use of the requirement text in the repo.
@@ -15,7 +15,7 @@ The requirement.txt file in this repository contain all the packages you'll need
 * <b>Section 7:</b> Cluster the Cryptocurrencies with K-means Using the PCA Data
 * <b>Section 8:</b> Visualize and Compare the Results
 
-<br>
+---
 
 ### pip install for Requirements
 ```bash
@@ -33,3 +33,21 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 ```
 Note on Imports: 
+I included the following code snippet in the ipynb because it makes use of the kneed library to programmatically find `k`. This is extrat supplemental data and as such doesnt have to be part of your imports if you choose to do thiss as well.
+
+<mark><b>Code Snippet</mark></b>
+```
+from kneed import KneeLocator
+
+kl = KneeLocator(
+    k, 
+    inertia, 
+    curve="convex", 
+    direction="decreasing"
+)
+elbow=kl.elbow
+print('Elbow = {}'.format(elbow))
+
+```
+
+
